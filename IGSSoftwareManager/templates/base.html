@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <title>IGS Software Manager</title>
+    <style>
+        html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    margin-top:0;
+    background-color: bisque;
+}
+
+.header{
+    width: vh;
+    background-color: white;
+    display: flex;
+    justify-content:space-between;
+    padding: 20px;
+}
+
+.header h1{
+    font: white;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+    </style>
+    
+    {% block script %}
+    {% endblock %}
+</head>
+
+<body>
+    <div class='header'>
+        <h1>IGS Software Manager</h1>
+        <h1> Employees</h1>
+    </div>
+    {% block content%}
+    {% endblock %}
+</body>
+
+</html>
