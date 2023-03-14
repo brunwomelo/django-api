@@ -1,4 +1,4 @@
-# IGS Software Manager
+#  Software Manager
 
 To run this app correctly, we first need to create an virtual env, this can be done via command line `python3.9 -m venv venv`, enter the virtual env with `source venv/bin/activate`, and then we can install the dependencies with `pip install -r requirements.txt`.
 This app was built using PSQL Database, and to activate the db, we should make and `.env` file, with the fields listed bellow
